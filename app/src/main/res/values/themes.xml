@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.JessFestiveDay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_terminal</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_terminal</item>
+        <item name="colorSecondaryVariant">@color/green_terminal</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item> <!-- Black status bar -->
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/black</item> <!-- Black background -->
+        <!-- Font family. -->
+        <item name="android:fontFamily">monospace</item> <!-- Monospace font -->
+        <!-- Text colors for different components -->
+        <item name="android:textColor">@color/green_terminal</item>
+        <item name="android:textColorPrimary">@color/green_terminal</item>
+        <item name="android:textColorSecondary">@color/green_terminal</item>
+        <item name="android:textColorHint">@color/green_terminal</item>
+        <item name="android:textColorLink">@color/green_terminal</item>
+        <!-- Button colors -->
+        <item name="colorButtonNormal">@color/black</item>
+        <item name="android:buttonStyle">@style/BlackButtonStyle</item>
+    </style>
+
+    <!-- Black Button Style -->
+    <style name="BlackButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/green_terminal</item>
+    </style>
+</resources>
