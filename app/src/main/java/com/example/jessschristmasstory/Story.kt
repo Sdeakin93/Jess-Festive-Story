@@ -330,7 +330,7 @@ class Story(val goTitleScreen: () -> Unit) {
     private fun goDriveToDeliver() {
         gameText =  GameTexts.goDriveToDeliver
         choiceTexts = listOf("Of course we will, I'm going to drive", "Of course we will, Max is going to drive", "", "")
-        nextPositions = listOf("jessDrivesMaxEnding", "maxDrives", "", "")
+        nextPositions = listOf("jessDrivesMax", "maxDrives", "", "")
     }
 
     private fun jessDrivesMax() {
