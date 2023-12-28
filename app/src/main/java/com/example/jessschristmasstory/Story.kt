@@ -240,7 +240,7 @@ class Story(val goTitleScreen: () -> Unit) {
 
     private fun carIntro(){
         gameText = GameTexts.carIntro
-        choiceTexts = listOf("Is that a talking cat?? Wait... what is that sound?", "", "", "")
+        choiceTexts = listOf("Wait... what is that sound?", "", "", "")
         nextPositions = listOf("driverChoice", "", "", "")
     }
 
